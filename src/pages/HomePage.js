@@ -35,8 +35,8 @@ export default function HomePage() {
   ];
 
   const testimonials = [
-    { name: 'Priya M.', text: 'Absolutely gorgeous! The pink rose bouquet is perfect — my room smells fresh just seeing it!', stars: 5 },
-    { name: 'Ananya K.', text: 'Got a custom bouquet for my mom\'s birthday. She cried — in the best way. Worth every rupee!', stars: 5 },
+    { name: 'Dhanush S', text: 'Absolutely gorgeous! The pink rose bouquet is perfect — my room smells fresh just seeing it!', stars: 5 },
+    { name: 'Saai Kumaran', text: 'Got a custom bouquet for my mom\'s birthday. She cried — in the best way. Worth every rupee!', stars: 5 },
     { name: 'Rohan S.', text: 'These last forever! Real flowers die but these just get more beautiful with time.', stars: 5 },
   ];
 
@@ -333,7 +333,7 @@ export default function HomePage() {
             and tokens of love that last a lifetime.
           </p>
           <div style={{ marginTop: '2rem', fontFamily: 'Cormorant Garamond', fontSize: '1.3rem', fontStyle: 'italic', color: 'var(--lavender-600)' }}>
-            — Made with love, in Tamil Nadu 💜
+            — Made with love, in Chennai 💜
           </div>
         </div>
       </section>
@@ -415,12 +415,12 @@ export default function HomePage() {
         </div>
         <div style={{ fontSize: '0.8rem', marginBottom: '1.5rem', color: 'rgba(255,255,255,0.5)' }}>by Shruti</div>
         <div style={{ display: 'flex', gap: '2rem', justifyContent: 'center', marginBottom: '1.5rem', flexWrap: 'wrap' }}>
-          <a href="https://wa.me/919876543210" style={{ color: 'rgba(255,255,255,0.7)' }}>📱 WhatsApp</a>
+          <a href="https://wa.me/918056024034" style={{ color: 'rgba(255,255,255,0.7)' }}>📱 WhatsApp</a>
           <a href="https://instagram.com/velvetnvine" style={{ color: 'rgba(255,255,255,0.7)' }}>📸 Instagram</a>
           <Link to="/contact" style={{ color: 'rgba(255,255,255,0.7)' }}>✉️ Contact</Link>
         </div>
         <div style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.4)' }}>
-          © 2025 Velvet n Vine by Shruti · Made with 💜 in Tamil Nadu
+          © 2025 Velvet n Vine by Shruti · Made with 💜 in Chennai
         </div>
       </footer>
 
