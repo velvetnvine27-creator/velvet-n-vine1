@@ -141,7 +141,7 @@ export default function CartPage({ cart, removeFromCart, clearCart }) {
           </div>
 
           <a
-            href={`https://wa.me/919876543210?text=${whatsappMessage}`}
+            href={`https://wa.me/918056024034?text=${whatsappMessage}`}
             target="_blank"
             rel="noopener noreferrer"
             style={{
