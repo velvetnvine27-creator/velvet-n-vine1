@@ -9,7 +9,7 @@ export default function ContactPage() {
     const msg = encodeURIComponent(
       `Hi Shruti! I'm ${form.name}.\n\n${form.message}\n\nMy phone: ${form.phone}`
     );
-    window.open(`https://wa.me/919876543210?text=${msg}`, '_blank');
+    window.open(`https://wa.me/918056024034?text=${msg}`, '_blank');
     setSent(true);
   };
 
@@ -36,9 +36,9 @@ export default function ContactPage() {
             Let's Connect
           </h2>
           {[
-            { icon: '📱', label: 'WhatsApp', value: '+91 98765 43210', href: 'https://wa.me/919876543210' },
+            { icon: '📱', label: 'WhatsApp', value: '+91 80560 24034', href: 'https://wa.me/918056024034' },
             { icon: '📸', label: 'Instagram', value: '@velvetnvine', href: 'https://instagram.com/velvetnvine' },
-            { icon: '📍', label: 'Location', value: 'Tamil Nadu, India', href: null },
+            { icon: '📍', label: 'Location', value: 'Chennai, Tamil Nadu, India', href: null },
           ].map(({ icon, label, value, href }) => (
             <div key={label} style={{
               display: 'flex', alignItems: 'center', gap: '1.2rem',
@@ -92,8 +92,8 @@ export default function ContactPage() {
           </h3>
           <form onSubmit={handleSubmit}>
             {[
-              { key: 'name', label: 'Your Name', placeholder: 'Priya Sharma', type: 'text' },
-              { key: 'phone', label: 'Phone / WhatsApp', placeholder: '+91 9876543210', type: 'tel' },
+              { key: 'name', label: 'Your Name', placeholder: 'Shruti Rajesh', type: 'text' },
+              { key: 'phone', label: 'Phone / WhatsApp', placeholder: '+91 8056024034', type: 'tel' },
             ].map(({ key, label, placeholder, type }) => (
               <div key={key} style={{ marginBottom: '1.2rem' }}>
                 <label style={{ display: 'block', fontSize: '0.85rem', fontWeight: 600, color: 'var(--text-mid)', marginBottom: '0.4rem' }}>
